@@ -1,7 +1,9 @@
-const obj = {
-  name: "John",
-  age: 25,
-  cash: 1500,
-};
+const numberOfFilms = promt("Сколько фильмов вы уже посмотрели?", "");
 
-console.log(obj.cash);
+const personalMovieDB = {
+  count: numberOfFilms,
+  movies: {},
+  actors: {},
+  genres: [],
+  privat: false,
+};
